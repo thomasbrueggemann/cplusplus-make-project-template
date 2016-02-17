@@ -1,0 +1,3 @@
+# build
+
+This folder contains all object files, and is removed on a clean.
