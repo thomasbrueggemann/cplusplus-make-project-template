@@ -33,4 +33,7 @@ Notes on the Makefile:
 * I like to see the commands that run, hence the multitude of @echo's.
 * Since there are so few of them, I manually add spikes and test builds as a new Makefile target, see the ticket: target for example.
 * The .PHONY clean is brilliant, it nukes the build folder and the main executable. It does not clean spike or test executables though.
-* Aside: Why separate the includes and the sources? This is fundamentally not necessary for most of my expected projects as they will be stand-alone daemons. But I do expect to build a few shared libraries for these daemons, and having the include files separate makes them easier to deploy later on. So I may as well get into the practice of keeping them separate.
+
+#### Aside: Why separate the includes and the sources?
+
+This is fundamentally not necessary for most of my expected projects as they will be stand-alone daemons. But I do expect to build a few shared libraries for these daemons, and having the include files separate makes them easier to deploy later on. So I may as well get into the practice of keeping them separate.
